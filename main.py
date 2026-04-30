@@ -16,7 +16,7 @@ def is_prime(n):
     return True
 #1234
 def find_odd_number567s_in_range_12234(start, end):
-    """Return a list of odd numbers in the given range."""
+    """Return a list of odd numbers in the given range from main a."""
     return [num for num in range(start, end + 1) if num % 2 != 0]
 
 
