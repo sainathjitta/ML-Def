@@ -15,8 +15,8 @@ def is_prime(n):
             return False
     return True
 #1234
-def find_odd_numbers_in_range_12234(start, end):
-    """Return a list of odd numbers in the given range from pp 123."""
+def find_odd_number567s_in_range_12234(start, end):
+    """Return a list of odd numbers in the given range from pp 123 from main a."""
     return [num for num in range(start, end + 1) if num % 2 != 0]
 
 
@@ -25,7 +25,7 @@ result = add_three_numbers(5, 10, 15)
 print(f"Sum: {result}")
 
 # Example usage
-odd_numbers = find_odd_numbers_in_range_12234(1, 10)
+odd_numbers = find_odd_number567s_in_range_12234(1, 10)
 print(f"Odd numbers in range: {odd_numbers}")
 
 # Example usage
